@@ -1,0 +1,97 @@
+<!DOCTYPE html
+PUBLIC “.//W3C//DTD XHTML 1.0 Strict//EN”
+“http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd”>
+
+<html xmlns=”http://www.w3.org/1999/xhtml”>
+<head>
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+
+	<title> Currículo - Rafael e Júlio </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	
+</head>
+<body>
+	<div class="header">
+		<img id="header-img" src="imagens/oie_transparent_dark.png">
+		<h1>Rafael Cunha e Júlio Cesar</h1>
+		<h5>Analistas de Sistemas</h5>
+	</div>
+
+	<div id="menu">
+		<div class="table">
+			<ul>
+				<li><a href="./index.html">Principal</a></li>
+				<li class="dropdown">
+					<span>Interesses</span>
+					<div class="dropdown-content">
+					<p><a href="./interesses-rafael.html">Rafael Cunha</a></p>
+					<p><a href="./interesses-julio.html">Júlio Cesar</a></p>
+					</div>
+				</li>
+				<li class="dropdown">
+					<span>Fotos</span>
+					<div class="dropdown-content">
+					<p><a href="./fotos-rafael.html">Rafael Cunha</a></p>
+					<p><a href="./fotos-julio.html">Júlio Cesar</a></p>
+					</div>
+				</li>
+				<li><a href="./contato.html">Contato</a></li>
+				<li><a href="./creditos.html">Créditos</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="container-member">
+			<div class="group-member left">
+				<div class="group-member-image">
+					<a href="./interesses-rafael.html">
+						<img src="imagens/rafael/foto1.jpg">
+					</a>
+				</div>
+
+				<div class="group-member-description">
+					<h3>Rafael Cunha</h3>
+					<h5>Desenvolvedor Full Stack.<br>
+						Estudante de Sistemas de Informação na Puc Minas.<br>
+						Dentre minhas características profissionais destacam-se:<br>
+						Desenvolvimento Back-End em NodeJS, desenvolimento mobile hibrido utilizando Angular e Ionic, e conhecimento no framework Php Laravel.
+					</h5>
+				</div>
+			</div>
+
+			<div class="group-member right">
+				<div class="group-member-image">
+					<a href="./interesses-julio.html">
+						<img src="imagens/julio/foto1.jpg">
+					</a>
+				</div>
+
+				<div class="group-member-description">
+					<h3>Júlio Cesar</h3>
+					<h5>Estudante de Sistemas de Informação na Puc Minas.<br>
+					Dentre minhas características profissionais destacam-se:<br>
+					Certificado de Michigan (English Course - Above expectations), realização de programas sociais (Puc Mais Idade), conhecimentos em Windows e pacote Office, C#, HTML, CSS, banco de dados(iniciante).</h5>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div id="contador">
+		<div id="contador-numero">0</div>
+		<div id="contador-texto">Visitas</div>
+	</div>
+
+	<div id="footer" style="position: absolute;">
+		<p>	&copy; Rafael Cunha e Júlio César. Todos os direitos reservados.</p>
+	</div>
+
+	<button id="scroll-top" onclick="topFunction()" >&#8679;</button>
+
+	<!-- JavaScript para o contador de visitas -->
+	<script src="contador.js"></script>
+</body>
+</html>
